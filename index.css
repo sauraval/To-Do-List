@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+
+  #todoList {
+    max-width: 400px;
+    margin: 20px auto;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  li:last-child {
+    border-bottom: none;
+  }
+
+  button {
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: red;
+  }
+  #newTask{
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .completed {
+    text-decoration: line-through;
+    color: #888;
+  }
+
+  #b1{
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: blue;
+  }
